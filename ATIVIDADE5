@@ -1,0 +1,31 @@
+package lpa;
+ 
+import java.util.Scanner;
+ 
+public class Ativrec5 {
+ 
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+    String dia;		
+
+		System.out.println("Informe o turno que voce estuda (M - Manhã, T - Tarde, N - Noite) : ");
+		dia = ler.next();
+		
+		if (dia.equals("M")|| dia.equals("m")) {
+		System.out.println("Bom Dia!");
+		}
+		
+		else if (dia.equals("V")|| dia.equals("v")) {
+		System.out.println("Boa Tarde!");
+		}
+		
+		else if (dia.equals("N") || dia.equals("n")) {
+		System.out.println("Boa Noite!");
+		
+		}
+		else {
+	    System.out.println("Turno invalido!");
+					
+			}
+		}
+	}
