@@ -26,7 +26,7 @@ public class Ativrec1 {
 	    System.out.print("Informe sua senha: ");
 	    senha = ler.next();
  
-	    if (login.equals(login) && senha.equals(senha)) {
+	    if (login.equals(l) && senha.equals(s)) {
 		System.out.println("Bem vindo ao sistema SESI SENAI");
 		}
 	    else {
