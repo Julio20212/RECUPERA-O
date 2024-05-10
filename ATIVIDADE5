@@ -6,7 +6,7 @@ public class Ativrec5 {
  
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
-    String dia;		
+    		String dia;		
 
 		System.out.println("Informe o turno que voce estuda (M - Manhã, T - Tarde, N - Noite) : ");
 		dia = ler.next();
