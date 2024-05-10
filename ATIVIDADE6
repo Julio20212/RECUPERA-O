@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ativrec6 {
     
     public static void main(String[] args) {
-                Scanner ler = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
         double numero1, numero2, numero3, maiorNumero;        
 
         System.out.println("Digite o primeiro número:");
