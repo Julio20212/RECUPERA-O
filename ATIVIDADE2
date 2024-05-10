@@ -1,13 +1,15 @@
+package lpa;
+
 import java.util.Scanner;
  
-public class Ativrec2 {
+public class Ativrec{
  
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
-	    
-  System.out.println("Insira um mes entre janeiro a dezembro: ");
-	String mes = ler.next();
-	String janeiro, fevereiro, marco, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro;
+		String mes, janeiro, fevereiro, marco, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro;
+		
+		System.out.println("Insira um mes entre janeiro a dezembro: ");
+		mes = ler.next();
 	
   switch(mes) {
 	    
@@ -62,10 +64,5 @@ public class Ativrec2 {
 	    default:
 	    	System.out.println("Mês invalido! Informe novamente o mês: ");
 		}
- 
 	}
- 
- 
- 
- 
-	}
+ }
