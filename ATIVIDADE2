@@ -14,15 +14,15 @@ public class Ativrec{
   switch(mes) {
 	    
 	    case ("janeiro"):
-	    System.out.println("O mês informado e o 1°");
+	    	System.out.println("O mês informado e o 1°");
 	    break;
 	    
 	    case ("fevereiro"):
-	    System.out.println("O mês informado e o 2°");
+	    	System.out.println("O mês informado e o 2°");
 	    break;
 	    
 	    case ("marco"):
-        System.out.println("O mês informado e o 3°");
+		System.out.println("O mês informado e o 3°");
 		break;
 		
 	    case ("abril"):
