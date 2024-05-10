@@ -9,26 +9,26 @@ public class Ativrec8 {
 	        double nota1, nota2, nota3, nota4, nota5, media;
 	        
 	        System.out.println("Informe a primeira nota: ");
-	        nota1 = ler.nextInt();
+	        nota1 = ler.nextDouble();
 	        
 	        System.out.println("Informe a segunda nota: ");
-	        nota2 = ler.nextInt();
+	        nota2 = ler.nextDouble();
 	        
 	        System.out.println("Informe a terceira nota: ");
-	        nota3 = ler.nextInt();
+	        nota3 = ler.nextDouble();
 	        
 	        System.out.println("Informe a quarta nota: ");
-	        nota4 = ler.nextInt();
+	        nota4 = ler.nextDouble();
 	        
 	        System.out.println("Informe a quinta nota: ");
-	        nota5 = ler.nextInt();
+	        nota5 = ler.nextDouble();
 	        
 	    	media = (nota1+nota2+nota3+nota4+nota5)/5;
 	    	
-			if (media > 6) {
+			if (media >=6) {
 	        	System.out.println("Esta Aprovado " + media);
 			}
-			else (media < 4) {
+			else {
 	    		System.out.println("Esta Reprovado " + media);
 			}
 	    	ler.close();
